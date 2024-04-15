@@ -6,3 +6,33 @@
 
   --fs: 16px;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--clr-primary);
+  font-size: var(--fs);
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1440px;
+  border: 1px solid var(--clr-black);
+  background-color: var(--clr-white);
+  border-radius: 20px;
+  padding: 25px;
+  width: 375px;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.author {
+  display: flex;
+}

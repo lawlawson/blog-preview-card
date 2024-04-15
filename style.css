@@ -27,12 +27,54 @@ body {
   border-radius: 20px;
   padding: 25px;
   width: 375px;
+  box-shadow: 8px 8px;
 }
 
 .content {
   margin: 0 auto;
 }
 
+.main-image {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.learning-text {
+  background-color: var(--clr-primary);
+  padding: 5px;
+  width: 25%;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.published-text {
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.paragraph-text {
+  color: var(--clr-grey);
+  margin-bottom: 25px;
+}
+
 .author {
   display: flex;
+}
+
+.author-image {
+  height: 32px;
+  width: 32px;
+}
+
+.author p {
+  display: flex;
+  font-weight: bold;
+  margin-left: 10px;
+  align-items: center;
 }

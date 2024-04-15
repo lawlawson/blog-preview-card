@@ -16,6 +16,10 @@ body {
   font-size: var(--fs);
 }
 
+main {
+  margin: auto;
+}
+
 .container {
   display: flex;
   margin: auto;
